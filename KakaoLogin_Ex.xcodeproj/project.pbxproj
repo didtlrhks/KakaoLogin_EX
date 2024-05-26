@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC40E492C0350FB00465D36 /* KakaoLogin_Ex Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8EC40E482C0350FB00465D36 /* KakaoLogin_Ex Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EC40E4E2C0350FB00465D36 /* KakaoLogin_ExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40E4D2C0350FB00465D36 /* KakaoLogin_ExApp.swift */; };
+		8EC40E502C0350FB00465D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40E4F2C0350FB00465D36 /* ContentView.swift */; };
+		8EC40E522C0350FD00465D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40E512C0350FD00465D36 /* Assets.xcassets */; };
+		8EC40E552C0350FD00465D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC40E542C0350FD00465D36 /* Preview Assets.xcassets */; };
+		8EC40E5F2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40E5E2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppTests.swift */; };
+		8EC40E692C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40E682C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITests.swift */; };
+		8EC40E6B2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC40E6A2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC40E4A2C0350FB00465D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC40E3C2C0350FB00465D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC40E472C0350FB00465D36;
+			remoteInfo = "KakaoLogin_Ex Watch App";
+		};
+		8EC40E5B2C0350FD00465D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC40E3C2C0350FB00465D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC40E472C0350FB00465D36;
+			remoteInfo = "KakaoLogin_Ex Watch App";
+		};
+		8EC40E652C0350FD00465D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC40E3C2C0350FB00465D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC40E472C0350FB00465D36;
+			remoteInfo = "KakaoLogin_Ex Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EC40E712C0350FD00465D36 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8EC40E492C0350FB00465D36 /* KakaoLogin_Ex Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8EC40E422C0350FB00465D36 /* KakaoLogin_Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoLogin_Ex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40E482C0350FB00465D36 /* KakaoLogin_Ex Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KakaoLogin_Ex Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40E4D2C0350FB00465D36 /* KakaoLogin_ExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin_ExApp.swift; sourceTree = "<group>"; };
+		8EC40E4F2C0350FB00465D36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EC40E512C0350FD00465D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC40E542C0350FD00465D36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EC40E5A2C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KakaoLogin_Ex Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40E5E2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin_Ex_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8EC40E642C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KakaoLogin_Ex Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC40E682C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin_Ex_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8EC40E6A2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC40E452C0350FB00465D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E572C0350FD00465D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E612C0350FD00465D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC40E3B2C0350FB00465D36 = {
+			isa = PBXGroup;
+			children = (
+				8EC40E4C2C0350FB00465D36 /* KakaoLogin_Ex Watch App */,
+				8EC40E5D2C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests */,
+				8EC40E672C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests */,
+				8EC40E432C0350FB00465D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC40E432C0350FB00465D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40E422C0350FB00465D36 /* KakaoLogin_Ex.app */,
+				8EC40E482C0350FB00465D36 /* KakaoLogin_Ex Watch App.app */,
+				8EC40E5A2C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests.xctest */,
+				8EC40E642C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC40E4C2C0350FB00465D36 /* KakaoLogin_Ex Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40E4D2C0350FB00465D36 /* KakaoLogin_ExApp.swift */,
+				8EC40E4F2C0350FB00465D36 /* ContentView.swift */,
+				8EC40E512C0350FD00465D36 /* Assets.xcassets */,
+				8EC40E532C0350FD00465D36 /* Preview Content */,
+			);
+			path = "KakaoLogin_Ex Watch App";
+			sourceTree = "<group>";
+		};
+		8EC40E532C0350FD00465D36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40E542C0350FD00465D36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EC40E5D2C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40E5E2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppTests.swift */,
+			);
+			path = "KakaoLogin_Ex Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8EC40E672C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC40E682C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITests.swift */,
+				8EC40E6A2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "KakaoLogin_Ex Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC40E412C0350FB00465D36 /* KakaoLogin_Ex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40E722C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex" */;
+			buildPhases = (
+				8EC40E402C0350FB00465D36 /* Resources */,
+				8EC40E712C0350FD00465D36 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC40E4B2C0350FB00465D36 /* PBXTargetDependency */,
+			);
+			name = KakaoLogin_Ex;
+			productName = KakaoLogin_Ex;
+			productReference = 8EC40E422C0350FB00465D36 /* KakaoLogin_Ex.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8EC40E472C0350FB00465D36 /* KakaoLogin_Ex Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40E6E2C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch App" */;
+			buildPhases = (
+				8EC40E442C0350FB00465D36 /* Sources */,
+				8EC40E452C0350FB00465D36 /* Frameworks */,
+				8EC40E462C0350FB00465D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KakaoLogin_Ex Watch App";
+			productName = "KakaoLogin_Ex Watch App";
+			productReference = 8EC40E482C0350FB00465D36 /* KakaoLogin_Ex Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC40E592C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40E752C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch AppTests" */;
+			buildPhases = (
+				8EC40E562C0350FD00465D36 /* Sources */,
+				8EC40E572C0350FD00465D36 /* Frameworks */,
+				8EC40E582C0350FD00465D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC40E5C2C0350FD00465D36 /* PBXTargetDependency */,
+			);
+			name = "KakaoLogin_Ex Watch AppTests";
+			productName = "KakaoLogin_Ex Watch AppTests";
+			productReference = 8EC40E5A2C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC40E632C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC40E782C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch AppUITests" */;
+			buildPhases = (
+				8EC40E602C0350FD00465D36 /* Sources */,
+				8EC40E612C0350FD00465D36 /* Frameworks */,
+				8EC40E622C0350FD00465D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC40E662C0350FD00465D36 /* PBXTargetDependency */,
+			);
+			name = "KakaoLogin_Ex Watch AppUITests";
+			productName = "KakaoLogin_Ex Watch AppUITests";
+			productReference = 8EC40E642C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC40E3C2C0350FB00465D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8EC40E412C0350FB00465D36 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8EC40E472C0350FB00465D36 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8EC40E592C0350FD00465D36 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8EC40E472C0350FB00465D36;
+					};
+					8EC40E632C0350FD00465D36 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8EC40E472C0350FB00465D36;
+					};
+				};
+			};
+			buildConfigurationList = 8EC40E3F2C0350FB00465D36 /* Build configuration list for PBXProject "KakaoLogin_Ex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC40E3B2C0350FB00465D36;
+			productRefGroup = 8EC40E432C0350FB00465D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC40E412C0350FB00465D36 /* KakaoLogin_Ex */,
+				8EC40E472C0350FB00465D36 /* KakaoLogin_Ex Watch App */,
+				8EC40E592C0350FD00465D36 /* KakaoLogin_Ex Watch AppTests */,
+				8EC40E632C0350FD00465D36 /* KakaoLogin_Ex Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC40E402C0350FB00465D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E462C0350FB00465D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40E552C0350FD00465D36 /* Preview Assets.xcassets in Resources */,
+				8EC40E522C0350FD00465D36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E582C0350FD00465D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E622C0350FD00465D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC40E442C0350FB00465D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40E502C0350FB00465D36 /* ContentView.swift in Sources */,
+				8EC40E4E2C0350FB00465D36 /* KakaoLogin_ExApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E562C0350FD00465D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40E5F2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC40E602C0350FD00465D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC40E692C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITests.swift in Sources */,
+				8EC40E6B2C0350FD00465D36 /* KakaoLogin_Ex_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC40E4B2C0350FB00465D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC40E472C0350FB00465D36 /* KakaoLogin_Ex Watch App */;
+			targetProxy = 8EC40E4A2C0350FB00465D36 /* PBXContainerItemProxy */;
+		};
+		8EC40E5C2C0350FD00465D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC40E472C0350FB00465D36 /* KakaoLogin_Ex Watch App */;
+			targetProxy = 8EC40E5B2C0350FD00465D36 /* PBXContainerItemProxy */;
+		};
+		8EC40E662C0350FD00465D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC40E472C0350FB00465D36 /* KakaoLogin_Ex Watch App */;
+			targetProxy = 8EC40E652C0350FD00465D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EC40E6C2C0350FD00465D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EC40E6D2C0350FD00465D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8EC40E6F2C0350FD00465D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KakaoLogin_Ex Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KakaoLogin_Ex;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8EC40E702C0350FD00465D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KakaoLogin_Ex Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KakaoLogin_Ex;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		8EC40E732C0350FD00465D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				INFOPLIST_KEY_CFBundleDisplayName = KakaoLogin_Ex;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8EC40E742C0350FD00465D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				INFOPLIST_KEY_CFBundleDisplayName = KakaoLogin_Ex;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC40E762C0350FD00465D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoLogin_Ex Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KakaoLogin_Ex Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8EC40E772C0350FD00465D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoLogin_Ex Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KakaoLogin_Ex Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		8EC40E792C0350FD00465D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KakaoLogin_Ex Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8EC40E7A2C0350FD00465D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GGZWXBXQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangCustom.KakaoLogin-Ex-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KakaoLogin_Ex Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC40E3F2C0350FB00465D36 /* Build configuration list for PBXProject "KakaoLogin_Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40E6C2C0350FD00465D36 /* Debug */,
+				8EC40E6D2C0350FD00465D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40E6E2C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40E6F2C0350FD00465D36 /* Debug */,
+				8EC40E702C0350FD00465D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40E722C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40E732C0350FD00465D36 /* Debug */,
+				8EC40E742C0350FD00465D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40E752C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40E762C0350FD00465D36 /* Debug */,
+				8EC40E772C0350FD00465D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC40E782C0350FD00465D36 /* Build configuration list for PBXNativeTarget "KakaoLogin_Ex Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC40E792C0350FD00465D36 /* Debug */,
+				8EC40E7A2C0350FD00465D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC40E3C2C0350FB00465D36 /* Project object */;
+}
